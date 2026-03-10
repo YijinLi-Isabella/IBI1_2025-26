@@ -1,3 +1,4 @@
+# 4.1 Some simple math
 a = 5.08
 b = 5.33
 c = 5.55
@@ -9,3 +10,15 @@ if d > e:
 else:
     # # The growth in the next ten years is larger, showing the population growth is accelerating
     print("d is smaller than e. Population growth is accelerating in Scotland.")
+# 4.2 Booleans
+X = True
+Y = False
+W = X or Y
+# Truth table for W
+# | X     | Y     | W = X or Y |
+# |-------|-------|------------|
+# | True  | True  | True       |
+# | True  | False | True       |
+# | False | True  | True       |
+# | False | False | False      |
+print(W)
