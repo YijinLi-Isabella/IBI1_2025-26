@@ -1,5 +1,5 @@
 Hello, my name is Yijin.
 I am a first year student majoring in bioinformatics.
-I like drinking bubble tea and eating hotpot.
+I like drinking bubble tea.
 I am enjoying learning IBI1. 
-I am happy that I can push my repo from Visual Studio Code to GitHub
+I am happy to use GitHub. :D
