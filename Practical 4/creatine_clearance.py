@@ -1,10 +1,10 @@
-# define the variables: age, weight, gender, cr(creatine_concentration)
-# check the variables
-# - age < 100
-# - 20 < weight 80
-# - gender = male or female
-# - 0 < cr < 100
-#
+# 1. define the variables: age, weight, gender, cr(creatine_concentration)
+# 2. check the variables
+#   - age < 100
+#   - 20 < weight 80
+#   - gender = male or female
+#   - 0 < cr < 100
+# 3. calculate crcl
 age = float(input("Please enter your age"))
 weight = float(input("Please enter your weight"))
 gender = input("Please enter your gender")
