@@ -5,10 +5,10 @@
 #   - gender = male or female
 #   - 0 < cr < 100
 # 3. calculate crcl
-age = float(input("Please enter your age"))
-weight = float(input("Please enter your weight"))
-gender = input("Please enter your gender")
-cr = float(input("Please enter your creatine concentration"))
+age = float(input("Please enter your age (in years):"))
+weight = float(input("Please enter your weight (in kg):"))
+gender = input("Please enter your gender (male or female):")
+cr = float(input("Please enter your creatine concentration (in μmol/l):"))
 if age >= 100:
     print("age must be less than 100 years old")
 elif weight <= 20 or weight >= 80:
