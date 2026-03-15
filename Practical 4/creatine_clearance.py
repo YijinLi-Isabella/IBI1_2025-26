@@ -18,8 +18,7 @@ elif cr <= 0 or cr >= 100:
 elif gender not in ["male", "female"]:
     print("gender must be either 'male' or 'female'")
 else: 
-    crcl = (140 - age) * weight / (72 * weight)
+    crcl = (140 - age) * weight / (72 * cr)
     if gender == "female":
         crcl *= 0.85
     print("Creatine clearance rate (CrCl):", crcl, "ml/min")
-    
