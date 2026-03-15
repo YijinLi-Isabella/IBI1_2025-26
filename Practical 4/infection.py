@@ -7,6 +7,7 @@ total_students = 91
 days = 0
 current_infected = initial_infected
 print(initial_infected, "students are infected on day", days)
+# calculate and print the number of infected students on each day
 while current_infected < total_students:
     current_infected = current_infected * 1.4
     days += 1
