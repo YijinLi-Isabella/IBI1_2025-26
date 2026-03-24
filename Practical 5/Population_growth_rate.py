@@ -17,11 +17,10 @@ for country in population:
 country_percentage.sort(key=lambda x: x[1]) # Sort the list according to the percentage
 country_percentage.reverse()
 print("The population changes in descending order:")
-for country, change in country_percentage:
-    print(f"{country}:{change: .2f}%")
+print(country_percentage)
 # Identify the largest increase and decrease
-print(f"The largest increase: {country_percentage[0][0]}({country_percentage[0][1]:.2f}%))")
-print(f"The largest decrease: {country_percentage[-1][0]}({country_percentage[-1][1]:.2f}%))")
+print(f"The largest increase: {country_percentage[0][0]}({country_percentage[0][1]:.2f}%)")
+print(f"The largest decrease: {country_percentage[-1][0]}({country_percentage[-1][1]:.2f}%)")
 # Produce the bar chart
 import matplotlib.pyplot as plt
 categories = []
@@ -30,7 +29,7 @@ for country, change in country_percentage:
     categories.append(country)
     values.append(change)
 plt.figure(figsize = (8, 6))
-plt.bar(categories, values, color = "#7BC0CD")
+plt.bar(categories, values, color = "#4575B4")
 plt.xlabel("Country")
 plt.ylabel("Population change (%)")
 plt.title("Population Growth Rate Change for Each Country")
