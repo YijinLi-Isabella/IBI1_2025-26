@@ -14,9 +14,9 @@ for rate in heart_rates:
     else:
         normal_count += 1
 # Print the count of each catogory
-print("There are", low_count, "measurements fall into the low category.")
-print("There are", normal_count, "measurements fall into the normal category.")
-print("There are", high_count, "measurements fall into the high category.")
+print("There are", low_count, "measurements that fall into the low category.")
+print("There are", normal_count, "measurements that fall into the normal category.")
+print("There are", high_count, "measurements that fall into the high category.")
 # Find the largest count and the category
 largest_count = max(low_count, normal_count, high_count)
 largest_category = None
