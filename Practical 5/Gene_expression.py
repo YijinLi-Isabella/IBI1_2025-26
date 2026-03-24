@@ -16,8 +16,8 @@ plt.xlabel("Gene")
 plt.ylabel("Expression Level")
 plt.title("Gene Expression Levels in a Biological Sample")
 plt.show()
-# The expression level of a specific gene
-gene_of_interest = 'TP53'
+# Check a specific gene
+gene_of_interest = 'TP53' # Here you can change the gene name
 if gene_of_interest in gene_expression:
     #If the gene is present in the dataset, print its expression level
     print("The expression level of", gene_of_interest, "is", gene_expression[gene_of_interest])
