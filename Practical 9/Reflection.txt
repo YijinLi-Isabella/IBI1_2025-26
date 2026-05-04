@@ -1,0 +1,8 @@
+Overall Experience:
+Overall, I found this practical to be challenging but rewarding. Building the SIR models step-by-step helped me understand how stochastic simulations work in Python.
+
+What I Enjoyed More (or Less):
+I really enjoyed the part where we implemented the 2D spatial SIR model and plotted the heat maps. Seeing the infection spread and the herd immunity build up visually was incredibly satisfying! However, the part I enjoyed a bit less was setting up the loops for the 8 neighbours and ensuring we didn't fall off the grid edges, as it was a bit tricky to debug.
+
+The Most Important Thing I Learned:
+The most important thing I learned was how to encode real-world problems into probabilistic models. Using functions like np.random.choice to simulate infection and recovery probabilities really helped bridge the gap between theoretical math and practical programming. It also gave me a much better understanding of how vaccination thresholds impact herd immunity.
