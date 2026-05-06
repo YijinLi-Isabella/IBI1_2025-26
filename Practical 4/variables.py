@@ -16,6 +16,9 @@ if d > e:
 else:
     # The growth in the next ten years is larger, showing the population growth is accelerating
     print("d is smaller than e. Population growth is accelerating in Scotland.")
+
+# d is bigger than e
+
 # 4.2 Booleans
 X = True
 Y = False
