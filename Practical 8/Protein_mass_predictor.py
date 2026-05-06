@@ -27,7 +27,7 @@ def protein_mass(seq):
         if aa in aa_mass:
             total_mass += aa_mass[aa]
         else:
-            print(f"Unknown amino acid: {aa}")
+            return f"Error: Unknown amino acid '{aa}' found in sequence."    
     return total_mass
 
 # ===== 2. An example function call ======
