@@ -31,6 +31,9 @@ def protein_mass(seq):
     return total_mass
 
 # ===== 2. An example function call ======
-example_seq = "GAVLIP"
+example_seq = "GAVLIPX"
 example_mass = protein_mass(example_seq)
-print(f"Total protein mass (for example): {example_mass:.2f} amu")
+if isinstance(example_mass, float):
+    print(f"Total protein mass (for example): {example_mass:.2f} amu")
+else:
+    print(example_mass)
