@@ -1,0 +1,3 @@
+Question: What was the distribution of DALYs across all countries in 2019?
+From line 67
+Results: In 2019, the global DALYs showed a right-skewed distribution, with a few countries having a high burden, while most countries were concentrated in the lower range. This is consistent with the reality of uneven global health burdens.
